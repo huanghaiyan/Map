@@ -122,7 +122,7 @@
     _mapView.compassOrigin = CGPointMake(_mapView.compassOrigin.x, 22);
     _mapView.scaleOrigin = CGPointMake(_mapView.scaleOrigin.x, 22);
     _mapView.showsUserLocation = YES;
-    _mapView.mapType = MAMapTypeSatellite;
+    _mapView.mapType = MAMapTypeStandard;
     [self.view addSubview:_mapView];
     
 }
